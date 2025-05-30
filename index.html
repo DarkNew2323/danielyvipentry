@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación - Daniely Quinceañera</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(to bottom right, #f8d1e0, #f6e7c1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .notification {
+      position: absolute;
+      top: 30px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      animation: slideDown 0.8s ease-out;
+    }
+
+    @keyframes slideDown {
+      from { top: -100px; opacity: 0; }
+      to { top: 30px; opacity: 1; }
+    }
+
+    .notification span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .container {
+      text-align: center;
+      color: #333;
+      max-width: 90%;
+    }
+
+    .container h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .container p {
+      font-size: 18px;
+      margin-top: 0;
+    }
+
+    .checkmark {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="notification">
+    <img class="checkmark" src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="check">
+    <span>Invitación válida</span>
+  </div>
+
+  <div class="container">
+    <h1>🎉 Bienvenido a la Fiesta de Daniely Katicsa Baldarrago Rosario</h1>
+    <p>Gracias por compartir este momento mágico con nosotros.</p>
+  </div>
+</body>
+</html>
